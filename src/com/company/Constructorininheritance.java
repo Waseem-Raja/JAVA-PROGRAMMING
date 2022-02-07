@@ -43,7 +43,7 @@ public class Constructorininheritance {
     }
 }
 //  call to the derived class's constructor weather its parameterised or default it will invoke first default  constructor of
-// base class .
+// its immediate base class .
 //if we want to call parameterised constructor of super class then we can use super keyword to do that in any of derived class's
 //constructor weather its default or parameterised
 // WE  can also inboke any constructor from other constructor in the same class using this keyord
