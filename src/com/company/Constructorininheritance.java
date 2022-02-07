@@ -1,4 +1,4 @@
-//CONTRUCTORS IN JAVA
+//CONTRUCTORS IN INHERITANCE
 package com.company;
 class Constructors
 {
@@ -25,6 +25,14 @@ class Deroved extends Constructors
     {
         System.out.println("hay man its Derived class's parameterised constructor"+ x+y);
     }
+    
+    // we can also invoke a constructor from other constructor within the same class using this keyowrd
+      Deroved(int x, int y, int z) 
+    {
+        // now from this constructor i'll inboke another parameterised constructor with two parameters 
+        this(2,3);      
+    }
+    
 }
 
 public class Constructorininheritance {
@@ -38,3 +46,4 @@ public class Constructorininheritance {
 // base class .
 //if we want to call parameterised constructor of super class then we can use super keyword to do that in any of derived class's
 //constructor weather its default or parameterised
+// WE  can also inboke any constructor from other constructor in the same class using this keyord
