@@ -19,7 +19,7 @@ public class Clientff {
 
             dos.writeUTF(data);
         }
-        dos.writeUTF("exit"); //after finishing the file reading just letting server paji know when to stop
+        dos.writeUTF("exit"); //aafter finishing the file reading just letting server paji know when to stop
         String cipherText= dis.readUTF();
         System.out.println("Cipher text :"+ cipherText);
         System.out.println("connection closed");
