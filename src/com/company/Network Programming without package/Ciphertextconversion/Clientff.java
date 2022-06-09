@@ -1,5 +1,5 @@
 
-
+//reading a file  and transfarring the data to the server for encryption
 import java.io.*;
 import java.net.Socket;
 
